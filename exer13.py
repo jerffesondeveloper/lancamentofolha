@@ -40,14 +40,15 @@ while True:
         print(Fore.LIGHTRED_EX + Style.BRIGHT + '\nOPERADOR NÃO CADASTRADO \nDigite o código novamente!')
 
 # Dados do colaborador
-print('\n')
-cola = input(Fore.RED + Back.LIGHTWHITE_EX + Style.BRIGHT +'INFORME O NOME DO COLABORADOR:'  + Back.RESET + " " + Fore.RESET).upper()
-print(Fore.GREEN + Style.BRIGHT +'''\nOK!
-A seguir insira as informações para {}
-      '''.format(cola))
-
-#time.sleep(2)
 while True:
+        print('\n')
+        cola = input(Fore.RED + Back.LIGHTWHITE_EX + Style.BRIGHT +'INFORME O NOME DO COLABORADOR:'  + Back.RESET + " " + Fore.RESET).upper()
+        print(Fore.GREEN + Style.BRIGHT +'''\nOK!
+A seguir insira as informações para {}
+            '''.format(cola))
+
+        time.sleep(2)
+
         while True:
             fun = input(Fore.RED + Back.LIGHTWHITE_EX + Style.BRIGHT +'INFORME A FUNÇÃO DO COLABORADOR:' + Fore.RESET + Back.RESET + Style.RESET_ALL +
             '\n[1]CAIXA'
