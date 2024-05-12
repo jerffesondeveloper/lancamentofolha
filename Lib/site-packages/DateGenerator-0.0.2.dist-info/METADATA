@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: DateGenerator
+Version: 0.0.2
+Summary: dategen is a module for generating day or month or year.
+Home-page: https://github.com/kareemsaf/dgn2/
+Author: kareemPypi
+Author-email: s4830866@mkhg.moe.gov.sa
+License: UNKNOWN
+Project-URL: Bug Detector, https://github.com/kareemsaf/dgn2/issues
+Project-URL: Account, https://github.com/kareemsaf
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+Welcome to the dategen module! The dategen module
+can be useful for generating day/month/year.
+

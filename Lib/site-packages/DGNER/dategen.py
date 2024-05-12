@@ -1,0 +1,27 @@
+from datetime import date
+Year = int(date.today().year)
+Month = int(date.today().month)
+Day = int(date.today().day)
+
+def YearGenerator(start=0,end=Year):
+    "Year generator from start to end."
+    end = end + 1
+    list = [i for i in range(start,end)]
+    return list
+
+def MonthGenerator(start=0,end=Month):
+    "Month generator from start to end."
+    end = end + 1
+    list = [i for i in range(start,end)]
+    return list
+
+def DayGenerator(start=0,end=Day):
+    "Day generator from start to end."
+    end = end + 1
+    list = [i for i in range(start,end)]
+    return list
+
+__all__ = [
+    "YearGenerator", "MonthGenerator", "DayGenerator", #functions
+    "Year", "Month", "Day" #variables
+]
